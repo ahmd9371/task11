@@ -1,0 +1,458 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: auto;
+}
+
+
+/* start nav */
+.background_nav {
+    position: relative;
+    top: 0px;
+}
+
+nav {
+    position: absolute;
+    width: 100%;
+    top: 90px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+nav .link_nav {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 40px;
+}
+
+nav img {
+    margin-left: 20px;
+
+}
+
+
+nav .link_nav a {
+    text-decoration: none;
+    margin: 30px;
+    color: rgba(98, 96, 96, 0.811);
+
+}
+
+nav .link_nav a:hover {
+
+    background-color:rgb(255, 251, 251); 
+ 
+}
+
+.button_nav input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 110px;
+    padding: 7px 30px;
+    color: rgba(98, 96, 96, 0.811);
+    border: darkgray;
+    font-size: 20px;
+    background-color: rgb(234, 234, 234);
+    border-radius: 10%;
+
+}
+
+/* end nav */
+
+/* start sct_1 */
+
+.sct_1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    top: 100px;
+}
+
+.sct_1 .H_sct1 {
+    width: 50%;
+    margin-top: 280px;
+    margin-left: 100px;
+    padding-top: 10px;
+    font-size: 35px;
+    @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@494&display=swap');
+    font-family: 'Dosis', sans-serif;
+    color: rgba(98, 96, 96, 0.811);
+
+}
+
+.highlight_word {
+    color: blueviolet;
+}
+
+.sct_1 .H_sct1 h1 {
+    padding-bottom: 20px;
+}
+
+
+.photo_sct1 .photo_1 {
+
+    position: relative;
+    margin-right: 10px;
+    margin-top: 110px;
+    z-index: 1;
+
+}
+
+.photo_sct1 .photo_2 {
+    position: absolute;
+    z-index: 2;
+    right: 250px;
+    bottom: 460px;
+
+
+}
+
+.photo_sct1 .photo_3 {
+    position: absolute;
+    z-index: 3;
+    right: 172px;
+    bottom: 310px;
+
+}
+
+.photo_sct1 .photo_4 {
+    position: absolute;
+    z-index: 4;
+    left: 10px;
+    bottom: 200px;
+
+}
+
+.sct_2 {
+    width: 100%;
+    height: 800px;
+    ;
+
+
+}
+
+.part1 {
+    margin-top: 50px;
+    margin-left: 250px;
+    position: relative;
+    z-index: 1;
+}
+
+.part2 img {
+    position: absolute;
+    z-index: 2;
+    bottom: -370px;
+    left: 160px;
+}
+
+.part2 h4 {
+    position: absolute;
+    font-size: 25px;
+    bottom: -406px;
+    left: 150px;
+    color: rgba(98, 96, 96, 0.811);
+}
+
+.part2 h5 {
+    font-size: 19px;
+    position: absolute;
+    bottom: -430px;
+    left: 130px;
+    color: rgba(98, 96, 96, 0.811);
+}
+
+.part2 h6 {
+    font-size: 15px;
+    position: absolute;
+    bottom: -450px;
+    left: 140px;
+    color: rgba(98, 96, 96, 0.811);
+}
+
+.part3 img {
+    position: absolute;
+    z-index: 3;
+    bottom: -500px;
+    left: 580px;
+}
+
+.part3 h4 {
+    position: absolute;
+    font-size: 25px;
+    bottom: -520px;
+    left: 570px;
+    color: rgba(98, 96, 96, 0.811);
+}
+
+.part3 h5 {
+    font-size: 19px;
+    position: absolute;
+    bottom: -540px;
+    left: 550px;
+    color: rgba(98, 96, 96, 0.811);
+}
+
+.part3 h6 {
+    font-size: 15px;
+    position: absolute;
+    bottom: -560px;
+    left: 590px;
+    color: rgba(98, 96, 96, 0.811);
+}
+
+.part4 img {
+    position: absolute;
+    left: 910px;
+    bottom: -790px;
+
+}
+
+.part4 h4 {
+    position: absolute;
+    font-size: 25px;
+    bottom: -840px;
+    left: 950px;
+    color: rgba(98, 96, 96, 0.811);
+}
+
+.part4 h5 {
+    font-size: 19px;
+    position: absolute;
+    bottom: -860px;
+    left: 880px;
+    color: rgba(98, 96, 96, 0.811);
+}
+
+.part4 h6 {
+    font-size: 15px;
+    position: absolute;
+    bottom: -880px;
+    left: 890px;
+    color: rgba(98, 96, 96, 0.811);
+}
+
+.part5 img {
+    position: relative;
+    left: 190px;
+
+}
+
+.P1_part5 {
+    position: absolute;
+    left: 250px;
+    bottom: -790px;
+    font-size: 14px;
+    color: aliceblue;
+
+}
+
+.P2_part5 {
+    position: absolute;
+    left: 255px;
+    bottom: -820px;
+    font-size: 28px;
+    color: aliceblue;
+}
+
+/* end set2 */
+
+/* start sct3 */
+
+
+.sct_3 .part1 {
+
+    margin-left: 220px;
+    margin-top: 200px;
+}
+
+.sct_3 .part2 {
+
+    position: absolute;
+    left: 390px;
+    bottom: -920px;
+
+}
+
+.sct_3 .part3 {
+    position: absolute;
+    left: 450px;
+    bottom: -800px;
+}
+
+.sct_3 .part4 {
+    text-align: center;
+    color: rgba(98, 96, 96, 0.811);
+}
+
+.sct_3 .part4 .P_1 {
+
+    position: relative;
+    bottom: -1000;
+
+}
+
+.sct_3 .part4 .P_2 {
+
+    position: relative;
+    bottom: -1010;
+
+}
+
+/* end sct3 */
+/* start set4 */
+.sct_4 {
+    width: 100%;
+    position: relative;
+}
+
+.picther1 {
+    position: sticky;
+    width: 100%;
+    height: 350px;
+    z-index: 1;
+    bottom: 0px;
+
+}
+
+.picther2 {
+    position: absolute;
+    width: 600px;
+    z-index: 2;
+    right: 150px;
+    bottom: 0px;
+}
+
+.icon_sct4 {
+    position: absolute;
+    z-index: 2;
+    bottom: 40px;
+    height: 200px;
+    width: 320px;
+}
+
+.login {
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+
+.login1 {
+    position: absolute;
+    top: 80px;
+    width: 120px;
+    height: 47px;
+    border-radius: 20%;
+    left: 40px;
+
+}
+
+.playstor {
+    position: absolute;
+    z-index: 3;
+    width: 25px;
+    height: 25px;
+    top: 90px;
+    left: 66px;
+}
+
+.p_one {
+    position: absolute;
+    top: 99px;
+    left: 99px;
+    font-size: 10px;
+    color: rgba(98, 96, 96, 0.811);
+}
+
+.login2 {
+    position: absolute;
+    top: 80px;
+    width: 120px;
+    height: 47px;
+    border-radius: 20%;
+    left: 170px;
+
+}
+
+.appstor {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 90px;
+    left: 196px;
+}
+
+.p_two {
+    position: absolute;
+    top: 99px;
+    left: 230px;
+    font-size: 10px;
+    color: rgba(98, 96, 96, 0.811);
+}
+
+
+.icon {
+    position: absolute;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 20px;
+    top: 130px;
+    left: 40px;
+    width: 30px;
+    height: 30px;
+}
+
+.icon1 {
+    padding-right: 25px;
+
+}
+
+.icon2 {
+    padding-right: 25px;
+}
+
+.icon3 {
+    padding-right: 25px;
+}
+
+.link {
+    position: absolute;
+    display: flex;
+    top: 200px;
+    justify-content: space-around;
+    margin-left: 60px;
+    font-size: 12px;
+
+}
+
+.link1 {
+    margin-right: 40px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.link2 {
+    margin-right: 40px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.link3 {
+    margin-right: 40px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.link4 {
+    margin-right: 40px;
+    color: whitesmoke;
+    text-decoration: none;
+}
